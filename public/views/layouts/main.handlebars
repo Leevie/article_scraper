@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+  <head>
+    <title>Scraping With Mongoose</title>
+    <!--Bootstrap start-->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
+    <!--Bootstrap stop-->
+
+  </head>
+  <body>
+		{{{ body }}}
+	
+			{{!-- 
+
+				{{...}} = pass "strings", don't render HTML 
+
+				{{{...}}} = pass through HTML formatting
+
+			--}}
+
+
+    <div class="container-fluid">
+      <div id="wrapper">
+        <h1>Note Scraper</h1>
+        <h2><i>If you can do this...the homework should be no problem.</i></h2>
+        <!--START of button-->
+        <div>
+        <a href="/scrape" >Scrape Articles</a>
+        </div>
+
+        <br>
+        <br>
+        <!--END of button-->
+        <div id="articles"></div>
+        <div id="notes"></div>
+      </div>
+    </div>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <!--Start Bootstrap JS-->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script> -->
+    <!--End Bootstrap JS-->
+  </body>
+</html>
